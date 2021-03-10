@@ -139,3 +139,14 @@ pages/article/[id]/index.js
 - this will be our single article page
 - we call it article
 - to get the id we use the next/router
+
+Data fetching using what nextJS provides
+
+- getServerSideProps
+- which gets data by the time of request
+- getStaticProps
+- will fetch data at build time
+- getStaticPaths
+- to dynamically generate all the paths with all the data
+- both getServerSideProps and getStaticProps can pass context as props
+- context will allow us to get the id of whatever is in the URL
