@@ -138,3 +138,4 @@ pages/article/[id]/index.js
 
 - this will be our single article page
 - we call it article
+- to get the id we use the next/router
