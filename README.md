@@ -127,3 +127,14 @@ components/ArticleList.js
 
 - import ArticleItem
 - inside the map we pass in ArticleItem with individual article
+
+Create Nested Routes
+
+Create pages/article/[id]/
+
+- id is the parameter we want to use
+
+pages/article/[id]/index.js
+
+- this will be our single article page
+- we call it article
