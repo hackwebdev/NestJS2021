@@ -101,3 +101,12 @@ Data Fetching
 pages/index.js
 
 - we will use getStaticProps
+
+Create styles/Article.module.css
+
+Create components/ArticleList.js
+
+- where we will map the articles
+- and have an ArticleItem component for each individual article
+
+Insert ArticleList inside pages/index.js
