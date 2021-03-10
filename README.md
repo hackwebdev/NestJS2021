@@ -1,5 +1,6 @@
 Notes:
-\_app.js - wraps around all the pages components
+
+- \_app.js - wraps around all the pages components
 
 Naming Convention:
 
@@ -9,7 +10,7 @@ Naming Convention:
 Edited pages/index.js
 
 - in the browser:
-- http://localhost:3000/
+  - http://localhost:3000/
 
 Created pages/about.js
 
@@ -57,3 +58,18 @@ pages/\_app.js
 - import Layout
 - we wrap the component with layout
 - the Layout will show in every page
+
+styles/Nav.module.css
+
+- Navbar styling
+
+Create components/Nav.js
+
+- import navStyles from '../styles/Nav.module.css'
+- add Link
+- import Link
+
+Bring Nav to the Layout
+
+- import Nav
+- add Nav component
