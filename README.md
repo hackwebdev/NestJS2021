@@ -73,3 +73,11 @@ Bring Nav to the Layout
 
 - import Nav
 - add Nav component
+
+create styles/Header.module.css
+
+components/Header.js
+
+- bring in Header.module.css
+
+Bring Nav to the Layout
