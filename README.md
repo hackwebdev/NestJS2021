@@ -89,3 +89,15 @@ pages/\_document.js
 - only rendered on the server
 - you dont probably want to mess with this
 - need to restart server this file is changed
+
+Data Fetching
+
+- we can add the functions either above or below the component
+- 3 Fetching Data Techniques
+  - getStaticProps which lets us fetch data during build time
+  - getServerSideProps which we fetch the data on every request(slower)
+  - getStaticPaths dynamically generate paths based on data were fetching
+
+pages/index.js
+
+- we will use getStaticProps
