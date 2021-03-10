@@ -144,9 +144,24 @@ Data fetching using what nextJS provides
 
 - getServerSideProps
 - which gets data by the time of request
-- getStaticProps
-- will fetch data at build time
-- getStaticPaths
-- to dynamically generate all the paths with all the data
 - both getServerSideProps and getStaticProps can pass context as props
 - context will allow us to get the id of whatever is in the URL
+
+Data fetching using combination of getStaticProps and getStaticPaths
+
+- getStaticProps
+- will fetch data at build time
+- same as getServerSideProps
+
+- getStaticPaths
+- to dynamically generate all the paths with all the data
+- we only want to get all of the posts
+
+- const ids = articles.map((article) => article.id)
+- returns an array of ids
+
+- const paths = ids.map((id) => ({ params: { id: id.toString() } }))
+- returns an id formatted to string
+
+- fallback: false,
+- which means if we go to something that doesnt exist in the data it will return a 404
