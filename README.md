@@ -81,3 +81,11 @@ components/Header.js
 - bring in Header.module.css
 
 Bring Nav to the Layout
+
+Custom Document
+pages/\_document.js
+
+- has access to Html, Head, Main, NextScript
+- only rendered on the server
+- you dont probably want to mess with this
+- need to restart server this file is changed
