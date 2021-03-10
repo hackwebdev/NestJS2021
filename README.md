@@ -110,3 +110,20 @@ Create components/ArticleList.js
 - and have an ArticleItem component for each individual article
 
 Insert ArticleList inside pages/index.js
+
+pages/index.js
+
+- insert ArticleList component
+- pass articles as props inside ArticleList
+
+components/ArticleItem.js
+
+- same style with ArticleList
+- insert inside ArticleList
+- has Link
+- Link href="/article/[id]" as={`/article/${article.id}`}
+
+components/ArticleList.js
+
+- import ArticleItem
+- inside the map we pass in ArticleItem with individual article
