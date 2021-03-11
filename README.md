@@ -231,7 +231,6 @@ Default Meta component
 - in the about
 - get rid of the Head import
 - for custom Meta title
-<<<<<<< HEAD
 
   - import Meta
   - pass in a prop of title='About'
@@ -244,7 +243,3 @@ Default Meta component
 AticleItem.js
 
 - change article.boy to article.excerpt
-=======
-  - import Meta
-  - pass in a prop of title='About'
->>>>>>> 204131a52cbbe476068176337b728df9b77ed42b
