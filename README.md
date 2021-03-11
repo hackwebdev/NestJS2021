@@ -165,3 +165,17 @@ Data fetching using combination of getStaticProps and getStaticPaths
 
 - fallback: false,
 - which means if we go to something that doesnt exist in the data it will return a 404
+
+Generating a Static Site
+package.json
+
+- "scripts": {
+  "build": "next build && next export",
+- $ npm run build
+- it will build for production and will also gonna export a static website
+- it will create an out/ folder with all the static files for a static website
+- it will bee automatically added to .gitignore the out/ folder
+
+- if you want to run the out/ static site
+- $ npm i -g serve
+- @ serve -s out -p 8000
