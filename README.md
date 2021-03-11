@@ -178,4 +178,15 @@ package.json
 
 - if you want to run the out/ static site
 - $ npm i -g serve
-- @ serve -s out -p 8000
+- $ serve -s out -p 8000
+
+Create API routes
+
+api/articles/index.js
+
+- for every function we will have a separate file
+- for this we will gonna have 2
+- one to get all articles
+- we will use a javascript file as a database
+- data.js
+- data.js file has id, title, excerpt, and a body
