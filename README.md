@@ -213,3 +213,23 @@ Use the API
 Display data from the api thru article
 
 - pages/article/[id]/index.js
+
+Default Meta component
+
+- components/Meta.js
+- import Head here
+- takes in props { title, keywords, description }
+- can also use 3rd party apps like next/seo
+- we can add default props too
+
+- bring Meta to Layout component
+- put Meta just above the Nav
+
+- in the Home page index.js
+- get rid of the Head import
+
+- in the about
+- get rid of the Head import
+- for custom Meta title
+  - import Meta
+  - pass in a prop of title='About'
