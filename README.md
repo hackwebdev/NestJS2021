@@ -202,3 +202,14 @@ Fetch individual article
 - get data with specific id
 - the way to access the data is thru req.query.id
 - or destructure to {query: { id }}
+- filter the article thru the id
+
+Use the API
+
+- pages/index.js
+
+- create config/index.js
+
+Display data from the api thru article
+
+- pages/article/[id]/index.js
