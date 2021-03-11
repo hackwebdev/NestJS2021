@@ -190,3 +190,15 @@ api/articles/index.js
 - we will use a javascript file as a database
 - data.js
 - data.js file has id, title, excerpt, and a body
+
+accessible thru
+
+- http://localhost:3000/api/articles
+- fetches all the articles
+
+Fetch individual article
+
+- api/articles/[id].js
+- get data with specific id
+- the way to access the data is thru req.query.id
+- or destructure to {query: { id }}
